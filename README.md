@@ -1,5 +1,5 @@
-# EAPOL_handshake_packet_capture_on_a_network_with_hidden_SSID
-Eapol handshake packet capture using Wireshark on a network with hidden SSID
+# Manual_EAPOL_handshake_packet_capture_on_a_network_with_hidden_SSID
+Manual Eapol handshake packet capture using Wireshark on a network with hidden SSID
 
 
 # 📡 WPA2 4-Way Handshake Capture on Hidden 2.4GHz Wi-Fi (Manual Method)
