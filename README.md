@@ -97,6 +97,8 @@ Apply filters like:
 📲 Force Full WPA2 Handshake from Phone
 To ensure you capture all 4 EAPOL packets, you must trigger a complete re-authentication from the client (your phone):
 
+---
+
 **🔁 Steps on the Phone (Client):**
 Go to Wi-Fi settings.
 
@@ -114,27 +116,23 @@ Perform full Authentication and Association.
 
 Initiate the 4-Way EAPOL Handshake with the router.
 
+---
+
 **📸 Screenshots of Captured Handshake**
 All sensitive data (MAC addresses, SSIDs) have been blurred for privacy.
 
 Screenshot	Description
 eapol_packet_capture.png	Overview of all 4 EAPOL packets captured
+
 eapol_packet_capture_1of4.png	EAPOL Packet 1 — AP to Client (ANonce)
+
 eapol_packet_capture_2of4.png	EAPOL Packet 2 — Client to AP (SNonce + MIC)
+
 eapol_packet_capture_3of4.png	EAPOL Packet 3 — AP to Client (GTK + MIC)
+
 eapol_packet_capture_4of4.png	EAPOL Packet 4 — Client to AP (Handshake Done)
 
-Add this to your project folder:
-
-Copy code
-wifi-handshake-capture/
-├── screenshots/
-│   ├── eapol_packet_capture.png
-│   ├── eapol_packet_capture_1of4.png
-│   ├── eapol_packet_capture_2of4.png
-│   ├── eapol_packet_capture_3of4.png
-│   └── eapol_packet_capture_4of4.png
-
+---
 
 **🧠 Key Learnings**
 Manually configuring monitor mode without airmon-ng
@@ -150,6 +148,8 @@ This project was done in a controlled environment on my own network with persona
 
 MAC addresses and SSIDs have been blurred in all shared materials.
 
+---
+
 **📚 Resources**
 Wireshark Display Filters
 
@@ -159,4 +159,5 @@ iw Command Reference
 
 **#MakeNetworkGreatAgain 🔧**
 
+---
 
