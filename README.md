@@ -57,7 +57,7 @@ Run multiple times if it doesn’t show results on the first try.
 
 **🔧 2. Prepare Adapter for Monitor Mode**
 
-- sudo ip link set wlan1 down
+- sudo ip link set wlan1 down  -- **wlan1** is a example of a interface name in this case
 - sudo iw wlan1 set monitor control
 - sudo ip link set wlan1 up
 Brings the interface down.
