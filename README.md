@@ -42,25 +42,23 @@ This section documents the exact terminal commands used to discover, configure, 
 
 ### 🔍 1. **Scan Wi-Fi Networks and Identify Router Channel**
 
-```bash
-nmcli dev wifi list
+
+- nmcli dev wifi list
 Lists visible SSIDs and their channels.
 
 Hidden SSIDs appear as blank but show BSSID and channel info.
 
-bash
-Copy code
-sudo iw dev wlan1 scan | grep -A20 "SSID: asdfgh"
+
+- sudo iw dev wlan1 scan | grep -A20 "SSID: asdfgh"
 Searches for a specific SSID and prints extended info (channel, signal, encryption, etc.).
 
 Run multiple times if it doesn’t show results on the first try.
 
 **🔧 2. Prepare Adapter for Monitor Mode**
-bash
-Copy code
-sudo ip link set wlan1 down
-sudo iw wlan1 set monitor control
-sudo ip link set wlan1 up
+
+- sudo ip link set wlan1 down
+- sudo iw wlan1 set monitor control
+- sudo ip link set wlan1 up
 Brings the interface down.
 
 Enables monitor mode (control allows management frames).
@@ -70,35 +68,31 @@ Brings the interface back up.
 Replace wlan1 with your actual adapter name (found via iw dev).
 
 **📻 3. Lock Interface to Target Wi-Fi Channel**
-bash
-Copy code
-sudo iw dev wlan1 set channel 11
+
+- sudo iw dev wlan1 set channel 11
 Locks the adapter to the router’s channel (in this case, channel 11).
 
 Prevents missing frames due to channel hopping.
 
 **🔎 4. Verify Adapter Mode and Status (Optional)**
-bash
-Copy code
-iw dev
-ip link show wlan1
+
+- iw dev
+- ip link show wlan1
 Confirms monitor mode is enabled and interface is UP.
 
 **📥 5. Start Packet Capture with Wireshark**
-bash
-Copy code
-sudo wireshark &
+
+- sudo wireshark &
 Start Wireshark with root privileges.
 
 Select the monitor-mode interface (wlan1) to begin capturing.
 
 Apply filters like:
 
-wireshark
-Copy code
-eapol
-wlan.fc.type_subtype <= 0x0c
-wlan.addr == <your_phone_mac>
+
+- eapol
+- wlan.fc.type_subtype <= 0x0c
+- wlan.addr == <your_phone_mac>
 📲 Force Full WPA2 Handshake from Phone
 To ensure you capture all 4 EAPOL packets, you must trigger a complete re-authentication from the client (your phone):
 
