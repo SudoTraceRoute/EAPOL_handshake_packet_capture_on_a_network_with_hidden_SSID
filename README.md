@@ -124,15 +124,15 @@ Initiate the 4-Way EAPOL Handshake with the router.
 All sensitive data (MAC addresses, SSIDs) have been blurred for privacy.
 
 Screenshot	Description
-eapol_packet_capture.png	Overview of all 4 EAPOL packets captured
+Eapol_screenshoots/Eapol_packet_capture.png  Overview of all 4 EAPOL packets captured
 
-eapol_packet_capture_1of4.png	EAPOL Packet 1 — AP to Client (ANonce)
+Eapol_screenshoots/Eapol_packet_capture1of4.png	EAPOL Packet 1 — AP to Client (ANonce)
 
-eapol_packet_capture_2of4.png	EAPOL Packet 2 — Client to AP (SNonce + MIC)
+Eapol_screenshoots/Eapol_packet_capture2of4.png	EAPOL Packet 2 — Client to AP (SNonce + MIC)
 
-eapol_packet_capture_3of4.png	EAPOL Packet 3 — AP to Client (GTK + MIC)
+Eapol_screenshoots/Eapol_packet_capture3of4.png	EAPOL Packet 3 — AP to Client (GTK + MIC)
 
-eapol_packet_capture_4of4.png	EAPOL Packet 4 — Client to AP (Handshake Done)
+Eapol_screenshoots/Eapol_packet_capture4of4.png	EAPOL Packet 4 — Client to AP (Handshake Done)
 
 ---
 
