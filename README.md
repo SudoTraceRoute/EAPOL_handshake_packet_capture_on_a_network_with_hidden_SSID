@@ -94,12 +94,14 @@ Apply filters like:
 - eapol
 - wlan.fc.type_subtype <= 0x0c
 - wlan.addr == <your_phone_mac>
-📲 Force Full WPA2 Handshake from Phone
-To ensure you capture all 4 EAPOL packets, you must trigger a complete re-authentication from the client (your phone):
 
 ---
 
-**🔁 Steps on the Phone (Client):**
+**📲 Force Full WPA2 Handshake from Phone**
+
+To ensure you capture all 4 EAPOL packets, you must trigger a complete re-authentication from the client (your phone):
+
+🔁 Steps on the Phone (Client):
 Go to Wi-Fi settings.
 
 Tap on the connected hidden network.
