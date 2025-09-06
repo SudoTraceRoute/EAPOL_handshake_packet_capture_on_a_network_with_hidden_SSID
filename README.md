@@ -49,7 +49,7 @@ Lists visible SSIDs and their channels.
 Hidden SSIDs appear as blank but show BSSID and channel info.
 
 
-- sudo iw dev wlan1 scan | grep -A20 "SSID: asdfgh"
+- sudo iw dev <your_interface_name_used_to_scan_wifi> scan | grep -A20 "SSID: asdfgh"
   
 Searches for a specific SSID and prints extended info (channel, signal, encryption, etc.).
 
