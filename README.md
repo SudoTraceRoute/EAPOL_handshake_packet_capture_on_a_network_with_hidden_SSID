@@ -153,8 +153,7 @@ MAC addresses and SSIDs have been blurred in all shared materials.
 ---
 
 **📚 Resources**
-- Wireshark Display Filters:  
-https://wiki.wireshark.org/DisplayFilters
+- Wireshark Display Filters:  https://wiki.wireshark.org/DisplayFilters
 
 - iw Command Reference:
   https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html
