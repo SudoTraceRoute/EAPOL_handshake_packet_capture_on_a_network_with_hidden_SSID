@@ -124,15 +124,15 @@ Initiate the 4-Way EAPOL Handshake with the router.
 All sensitive data (MAC addresses, SSIDs) have been blurred for privacy.
 
 Screenshot	Description
-Eapol_screenshoots/Eapol_packet_capture.png  Overview of all 4 EAPOL packets captured
+[Eapol_screenshoots/Eapol_packet_capture.png](https://github.com/SudoTraceRoute/EAPOL_handshake_packet_capture_on_a_network_with_hidden_SSID/blob/main/Eapol_screenshoots/Eapol_packet_capture.png)  Overview of all 4 EAPOL packets captured
 
-Eapol_screenshoots/Eapol_packet_capture1of4.png	EAPOL Packet 1 — AP to Client (ANonce)
+[Eapol_screenshoots/Eapol_packet_capture1of4.png](https://github.com/SudoTraceRoute/EAPOL_handshake_packet_capture_on_a_network_with_hidden_SSID/blob/main/Eapol_screenshoots/Eapol_packet_capture1of4.png)	EAPOL Packet 1 — AP to Client (ANonce)
 
-Eapol_screenshoots/Eapol_packet_capture2of4.png	EAPOL Packet 2 — Client to AP (SNonce + MIC)
+[Eapol_screenshoots/Eapol_packet_capture2of4.png](https://github.com/SudoTraceRoute/EAPOL_handshake_packet_capture_on_a_network_with_hidden_SSID/blob/main/Eapol_screenshoots/Eapol_packet_capture2of4.png)	EAPOL Packet 2 — Client to AP (SNonce + MIC)
 
-Eapol_screenshoots/Eapol_packet_capture3of4.png	EAPOL Packet 3 — AP to Client (GTK + MIC)
+[Eapol_screenshoots/Eapol_packet_capture3of4.png](https://github.com/SudoTraceRoute/EAPOL_handshake_packet_capture_on_a_network_with_hidden_SSID/blob/main/Eapol_screenshoots/Eapol_packet_capture3of4.png)	EAPOL Packet 3 — AP to Client (GTK + MIC)
 
-Eapol_screenshoots/Eapol_packet_capture4of4.png	EAPOL Packet 4 — Client to AP (Handshake Done)
+[Eapol_screenshoots/Eapol_packet_capture4of4.png](https://github.com/SudoTraceRoute/EAPOL_handshake_packet_capture_on_a_network_with_hidden_SSID/blob/main/Eapol_screenshoots/Eapol_packet_capture4of4.png)	EAPOL Packet 4 — Client to AP (Handshake Done)
 
 ---
 
