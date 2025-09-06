@@ -1,4 +1,4 @@
-# Manual_EAPOL_handshake_packet_capture_on_a_network_with_hidden_SSID
+# Manual EAPOL handshake packet capture on a network with hidden SSID
 Manual Eapol handshake packet capture using Wireshark on a network with hidden SSID
 
 
