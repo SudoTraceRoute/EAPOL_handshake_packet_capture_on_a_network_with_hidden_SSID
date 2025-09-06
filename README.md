@@ -50,6 +50,7 @@ Hidden SSIDs appear as blank but show BSSID and channel info.
 
 
 - sudo iw dev wlan1 scan | grep -A20 "SSID: asdfgh"
+  
 Searches for a specific SSID and prints extended info (channel, signal, encryption, etc.).
 
 Run multiple times if it doesn’t show results on the first try.
