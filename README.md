@@ -153,11 +153,14 @@ MAC addresses and SSIDs have been blurred in all shared materials.
 ---
 
 **📚 Resources**
-Wireshark Display Filters
+- Wireshark Display Filters:  
+https://wiki.wireshark.org/DisplayFilters
 
-iw Command Reference
+- iw Command Reference:
+  https://wireless.docs.kernel.org/en/latest/en/users/documentation/iw.html
 
-802.11 Frame Types Explained
+- 802.11 Frame Types Explained:
+https://en.wikipedia.org/wiki/802.11_frame_types
 
 **#MakeNetworkGreatAgain 🔧**
 
